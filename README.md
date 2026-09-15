@@ -1,13 +1,21 @@
-# Anmala | أنمله
+# أَنْمُلَة | Anmala
 
 ### An Arduino-Based 3D-Printed Robotic Arm — V1
 
-Anmala V1 is a 3D-printed robotic arm implementation based on an
-original robotic arm design by Kelton.
+كلمة **أَنْمُلَة** (والجمع: **أَنَامِل**) هي المفصل الأعلى من الإصبع الذي فيه الظفر، وتُطلق أحيانًا على الإصبع كاملة.
 
-The project focuses on the practical implementation of the robotic
-arm, including hardware integration, 3D printing, assembly,
-calibration, testing, and troubleshooting.
+The name **Anmala** is derived from the Arabic word **أَنْمُلَة**
+(plural: **أَنَامِل**), referring to the upper joint or fingertip
+of a finger where the nail is located. It can also sometimes be
+used to refer to the finger as a whole.
+
+The name was chosen to represent the finger-like structure,
+articulated joints, and gripper of the robotic arm.
+
+**Anmala V1** is an Arduino-based, 3D-printed robotic arm
+implementation developed as a collaborative project. The project
+covers the hardware integration, 3D printing, assembly, calibration,
+testing, and troubleshooting of the robotic arm.
 
 ## Project Status
 
