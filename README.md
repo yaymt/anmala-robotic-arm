@@ -1,21 +1,25 @@
-# أَنْمُلَة | Anmala
+# Anmala | <span dir="rtl">أُنْمُلَه</span>
 
 ### An Arduino-Based 3D-Printed Robotic Arm — V1
 
-كلمة **أَنْمُلَة** (والجمع: **أَنَامِل**) هي المفصل الأعلى من الإصبع الذي فيه الظفر، وتُطلق أحيانًا على الإصبع كاملة.
+<img src="05_Media/Photos/01_Final/hero.jpg" alt="Anmala V1" width="650">
 
-The name **Anmala** is derived from the Arabic word **أَنْمُلَة**
-(plural: **أَنَامِل**), referring to the upper joint or fingertip
-of a finger where the nail is located. It can also sometimes be
-used to refer to the finger as a whole.
-
-The name was chosen to represent the finger-like structure,
-articulated joints, and gripper of the robotic arm.
+## About
 
 **Anmala V1** is an Arduino-based, 3D-printed robotic arm
-implementation developed as a collaborative project. The project
-covers the hardware integration, 3D printing, assembly, calibration,
-testing, and troubleshooting of the robotic arm.
+implementation developed as a collaborative project.
+
+The project covers the practical implementation of the robotic arm,
+including hardware integration, 3D printing, assembly, calibration,
+testing, and troubleshooting.
+
+## The Name — أُنْمُلَه
+
+كلمة **أُنْمُلَه** هي اسم المشروع، وقد تم اختيارها للدلالة على
+التركيب المشابه للإصبع والمفاصل المتحركة وآلية القبض في الذراع الروبوتية.
+
+The name **Anmala** was chosen to represent the finger-like structure,
+articulated joints, and gripper mechanism of the robotic arm.
 
 ## Project Status
 
@@ -24,9 +28,14 @@ testing, and troubleshooting of the robotic arm.
 
 ## Team
 
+Anmala V1 was developed as a collaborative project by:
+
 - Yousef Tawfiq
 - Faisal Ayyash
 - Samer Almarwani
+
+The project was collaboratively implemented, assembled, tested,
+and documented by the team.
 
 ## Hardware
 
@@ -43,9 +52,14 @@ The project uses:
 - Power Switch
 - Controller Push Button
 - Wires and Connectors
+- T60 Plugs
 - Mechanical screws and components
+- Clear Acrylic
+- Gripper Foam Pad
+- Rubber Bands
+- LED
 
-More details are available in:
+More details:
 
 [`01_Hardware/Components.md`](01_Hardware/Components.md)
 
@@ -58,8 +72,12 @@ The robotic arm components were manufactured using:
 - PLA
 - PETG
 
-Klipper was also used as the printer firmware environment during
-the project.
+Both PLA and PETG were used during the build based on the
+available materials and to provide different colors for the
+printed components.
+
+Klipper was also used as the printer firmware environment
+during the project.
 
 More details:
 
@@ -89,13 +107,6 @@ The Arduino control code will be added to:
 
 `02_Software/Arduino`
 
-## Media
-
-Project photos and videos will be organized in:
-
-- `05_Media/Photos`
-- `05_Media/Videos`
-
 ## Original Design & Attribution
 
 This project is an implementation of the original:
@@ -106,14 +117,28 @@ This project is an implementation of the original:
 
 The original mechanical design is not claimed as our own.
 
+This repository documents our implementation, hardware integration,
+assembly, programming, testing, and troubleshooting of the robotic arm.
+
 Full attribution and licensing information:
 
 [`06_Attribution/Original-Design.md`](06_Attribution/Original-Design.md)
 
+## Future Improvements
+
+Potential future improvements may include:
+
+- Improved control methods
+- Additional functionality
+- Further mechanical refinements
+- Improved documentation
+- Additional testing
+
 ## Credits
 
-The Anmala V1 implementation was collaboratively developed,
-assembled, tested, and documented by:
+**Original Design:** Kelton
+
+**Anmala V1 Team:**
 
 - Yousef Tawfiq
 - Faisal Ayyash
